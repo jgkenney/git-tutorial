@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 t = np.arange(0.0, 2.0, 0.01)
-s = np.sin(88888888t)
+s = np.sin(t)
 
 plt.plot(t, s)
 plt.xlabel('time (s)')
